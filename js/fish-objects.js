@@ -1,0 +1,58 @@
+const fishTypes = [
+  {
+    id: 1,
+    name: "rasbora",
+    radius: 14,
+    points: 10,
+    image: "",
+  },
+  {
+    id: 2,
+    name: "tetra",
+    radius: 18,
+    points: 20,
+    image: "",
+  },
+  {
+    id: 3,
+    name: "goldfish",
+    radius: 23,
+    points: 40,
+    image: "",
+  },
+  {
+    id: 4,
+    name: "angelfish",
+    radius: 29,
+    points: 80,
+    image: "",
+  },
+  {
+    id: 5,
+    name: "gourami",
+    radius: 36,
+    points: 160,
+    image: "",
+  },
+  {
+    id: 6,
+    name: "corydora",
+    radius: 44,
+    points: 320,
+    image: "",
+  },
+  {
+    id: 7,
+    name: "bluePleco",
+    radius: 54,
+    points: 640,
+    image: "",
+  },
+  {
+    id: 8,
+    name: "arowana",
+    radius: 66,
+    points: 1280,
+    image: "",
+  },
+];

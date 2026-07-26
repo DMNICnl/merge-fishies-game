@@ -6,6 +6,7 @@ body{
     background-color: rgb(170, 203, 222);
     height: 100vh;
 }
+/* index */
 .index-container{
     height: 100vh;
     gap: 40px;
@@ -24,4 +25,29 @@ font-size: 60px;
 }
 .index-container button a{
     text-decoration: none;
+}
+/* game */
+.center-canvas{
+    height: 100vh;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#myCanvas{
+    width: 500px;
+    height: 600px;
+    border-radius: 5px;
+    border: 5px solid rgb(47, 102, 175);
+    background-color: rgb(49, 133, 193);
+}
+#score{
+    position: absolute;
+    transform: translate(50px, 50px);
+}
+
+/* fish animation smooth */
+.smooth-fish {
+  position: absolute;
+  transition: 0.1s ease-out;
 }
