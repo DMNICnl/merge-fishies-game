@@ -1,8 +1,12 @@
 let fish = document.querySelector("#fishie");
-function moveFishBeforeDrop(e) {
-  window.addEventListener("mousemove", function () {
-    // e.classlist.add(smooth-fish)
-    console.log("it works");
-  });
-}
-moveFishBeforeDrop(fish);
+let fishBorders = document.querySelector('.center-canvas');
+let borders = fishBorders.getBoundingClientRect();
+let startPosition = fish.getBoundingClientRect();
+console.log(borders);
+
+document.addEventListener("mousemove", function (event) {
+  const x = event.clientX;
+  console.log(`Mouse X: ${x}`);
+  
+  fish.style.left = (startPosition.x) + (x) +'px';
+});

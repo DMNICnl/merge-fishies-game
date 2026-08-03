@@ -1,53 +1,60 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: rgb(170, 203, 222);
-    height: 100vh;
+body {
+  background-color: rgb(170, 203, 222);
+  height: 100vh;
 }
 /* index */
-.index-container{
-    height: 100vh;
-    gap: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.index-container {
+  height: 100vh;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.index-container h1{
-font-size: 60px;
+.index-container h1 {
+  font-size: 60px;
 }
-.index-container button{
-    padding: 35px 20px;
-    border-radius: 100px;
-    font-size: 40px;
+.index-container button {
+  padding: 35px 20px;
+  border-radius: 100px;
+  font-size: 40px;
 }
-.index-container button a{
-    text-decoration: none;
+.index-container button a {
+  text-decoration: none;
 }
 /* game */
-.center-canvas{
-    height: 100vh;
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.center-canvas {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-#myCanvas{
-    width: 500px;
-    height: 600px;
-    border-radius: 5px;
-    border: 5px solid rgb(47, 102, 175);
-    background-color: rgb(49, 133, 193);
+#myCanvas {
+  width: 500px;
+  height: 600px;
+  border-radius: 5px;
+  border: 5px solid rgb(47, 102, 175);
+  background-color: rgb(49, 133, 193);
 }
-#score{
-    position: absolute;
-    transform: translate(50px, 50px);
+#score {
+  position: absolute;
+  transform: translate(50px, 50px);
 }
 
 /* fish animation smooth */
 .smooth-fish {
   position: absolute;
   transition: 0.1s ease-out;
+}
+
+#fishie {
+  position: absolute;
+  transform: translateY(-400px);
+  left: 500px;
+  height: 100px;
 }
